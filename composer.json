@@ -1,6 +1,6 @@
 {
     "name": "jair.foro/recharge",
-    "description": "Recharge assessment",
+    "description": "Quick start for a PHP application with PHPunit and autoload using a bit of SOLID",
     "require": {
         "phpunit/phpunit": "^9.5",
         "guzzlehttp/guzzle": "^7.3"
