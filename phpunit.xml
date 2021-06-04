@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/8.4/phpunit.xsd"
+     bootstrap="vendor/autoload.php"
+     backupGlobals="false"
+     forceCoversAnnotation="false"
+     convertErrorsToExceptions="true"
+     convertNoticesToExceptions="true"
+     convertWarningsToExceptions="true"
+     beStrictAboutCoversAnnotation="false"
+     beStrictAboutOutputDuringTests="true"
+     beStrictAboutTodoAnnotatedTests="true"
+     colors="true"
+     verbose="true"
+     processIsolation="false"
+     stopOnFailure="false"
+>
+
+    <testsuites>
+        <testsuite name="Solid Example">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+
+</phpunit>

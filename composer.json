@@ -1,0 +1,24 @@
+{
+    "name": "jair.foro/recharge",
+    "description": "Recharge assessment",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Jair Foro",
+            "email": "jairforo@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "App\\": "src"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "App\\Tests\\": "tests"
+      }
+    }
+}
